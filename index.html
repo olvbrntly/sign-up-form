@@ -35,55 +35,63 @@
 
       <h2>Let's do this!</h2>
 
-      <div id="main-form">
+      <div class="row">
 
-        
+        <div>
           <label for="firstName">FIRST NAME:</label>
-          <input type="text" name="firstName" id="firstName" tabindex="1" required>
+          <input type="text" name="firstName" id="firstName"  required>
+        </div>
 
+        <div>
           <label for="lastName">LAST NAME:</label>
-          <input type="text" name="lastName" id="lastName" tabindex="2">
-       
+          <input type="text" name="lastName" id="lastName" >
+        </div>
 
-        
+      </div> 
+
+
+      <div class="row">
+
+        <div>
           <label for="email" >EMAIL:</label>
-          <input type="email" name="email" id="email" tabindex="3" required>
+          <input type="email" name="email" id="email"  required>
+        </div>
 
+        <div>
           <label for="phoneNumber">PHONE NUMBER:</label>
-          <input type="tel" name="phoneNumber" id="phoneNumber"   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-        tabindex="4" required>
-        
-      
-        
+          <input type="tel" name="phoneNumber" id="phoneNumber"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+
+      </div> 
+
+
+
+      <div class="row">
+
+        <div>
           <label for="password">PASSWORD:</label>
-          <input type="password" name="password" id="password" tabindex="5" required>
+          <input type="password" name="password" id="password" required>
+        </div>
 
-          <label for="password"> CONFIRM PASSWORD:</label>
-          <input type="password" name="password" id="password" tabindex="6" required>
-        
+        <div>
+          <label for="confirm-password"> CONFIRM PASSWORD:</label>
+          <input type="confirm-password" name="confirm-password" id="confirm-password"required>
+        </div>
 
-      </div>
+      </div>    
 
-    
+      
+    </div>
 
-     </div>
-
-     
-
-      <div>
-        <button type="submit">Create Account</button>
-      </div>
+    <div>
+      <button type="submit">Create Account</button>
+    </div>
 
   </form>
-
 
   <p id="login-link">Already have an account? <a href="">Log In</a></p>
 
 </div>
-
-
-
-
 
 </body>
 </html>

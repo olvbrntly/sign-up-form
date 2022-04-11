@@ -54,6 +54,7 @@ body{
   display:flex;
   flex-direction: column;
   flex: 1;
+  flex-wrap:wrap;
   background:white; 
   box-shadow: 2px 0 10px 1px rgb(231, 231, 231) ;
   font-family:var(--form-font)
@@ -65,22 +66,17 @@ body{
   padding:20px 0 0 50px;
 }
 
-#main-form{
-  display:flex;
-  flex:1;
-  flex-direction:column;
-  gap:3rem;
-  padding-left:50px;
-}
-
 .row{
-  display: flex;
-  flex-direction:row;
+  display:flex;
+  margin:0 0 0 2rem;
+  gap:2rem;
 }
 
+label{
+  font-size: .85rem;
+}
 input{
   display:block;
-  width:99%;
   margin-bottom:15px;
   padding:3px;
   border:1.5px solid #E5E7EB;
