@@ -1,0 +1,111 @@
+:root{
+  --form-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  display:flex;
+  flex-direction: row;
+  margin:0;
+  height:100vh;
+}
+
+/* LOGO ----------------------------------------------- */
+
+
+
+/*LEFT --------------------------- */
+#left {
+  display:flex;
+  flex-grow:1;
+  width:clamp(70px, 40vw, 100rem);
+  background:center url('content/leaf.jpg') no-repeat;
+  background-size:cover;
+  z-index:-1;
+}
+
+.logo{
+  display:flex;
+  padding-top:15rem;
+  color:whitesmoke;
+}
+
+
+/* RIGHT-------------------------------------- */
+#right{
+  display:flex;
+  flex-grow:1;
+  flex-direction:column;
+  gap:1rem;
+  width:clamp(200px, 60vw, 100rem);
+  background-color: whitesmoke;
+}
+
+#right #top-text{
+  font-size:30px;
+  font-weight: 550;
+  margin-top: 1.5rem;
+  padding:50px 50px 10px 50px;
+  font-family:var(--form-font)
+}
+
+      /* FORM--------------------------------------------*/
+
+#container{
+  display:flex;
+  flex-direction: column;
+  flex: 1;
+  background:white; 
+  box-shadow: 2px 0 10px 1px rgb(231, 231, 231) ;
+  font-family:var(--form-font)
+}
+
+#container h2{
+  font-size:30px;
+  font-weight: 600;
+  padding:20px 0 0 50px;
+}
+
+#main-form{
+  display:flex;
+  flex:1;
+  flex-direction:column;
+  gap:3rem;
+  padding-left:50px;
+}
+
+.row{
+  display: flex;
+  flex-direction:row;
+}
+
+input{
+  display:block;
+  width:99%;
+  margin-bottom:15px;
+  padding:3px;
+  border:1.5px solid #E5E7EB;
+  border-radius:3px;
+}
+
+input:focus{
+ border:none;
+ box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.342);
+  outline: none;
+
+}
+
+button{
+  background-color: #596D48;
+  color:whitesmoke;
+  margin:2rem 2rem 0 2rem;
+  padding:1rem;
+  width:12rem;
+  border-radius:10px;
+  font-size:20px;
+}
+
+#login-link{
+  margin:0 0 0 2rem;
+  font-weight:bold;
+  font-family:var(--form-font)
+}
