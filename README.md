@@ -4,7 +4,7 @@ This is a completed sign-up form project from The Odin Project curriculum.
 
 Made with HTML and CSS
 
-Live demo:
+Live demo: https://olvbrntly.github.io/sign-up-form/
 
 A fully resposive design allows the sign up form to be viewed on all devices and form validation utilized on all inputs.
 
